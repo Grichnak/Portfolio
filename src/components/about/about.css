@@ -1,0 +1,28 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutPic {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+.aboutTextContainer {
+    max-width: 60%;
+}
+
+.aboutText {
+    margin-bottom: 3rem;
+    text-align: center;
+    line-height: 1.5;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}

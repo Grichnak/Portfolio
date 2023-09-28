@@ -1,0 +1,58 @@
+.bg {
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    max-height: 1100px;
+}
+
+.landingContent {
+    display: inline-block;
+}
+
+
+.landingText {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: beige;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    /*white-space: nowrap;
+    /* Empêche le texte de passer à la ligne */
+    overflow: hidden;
+}
+
+.landingText .line {
+    opacity: 0;
+    animation: typing 2s steps(20) forwards;
+    margin-bottom: 10px;
+    /* Espacement entre les lignes */
+}
+
+.landingText .line:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.landingText .line:nth-child(2) {
+    animation-delay: 2s;
+    /* Chaque ligne apparaît 2 secondes après la précédente */
+}
+
+.landingText .line:nth-child(3) {
+    animation-delay: 0s;
+    /* Chaque ligne apparaît 4 secondes après la précédente */
+}
+
+@keyframes typing {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
