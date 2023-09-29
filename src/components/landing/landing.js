@@ -9,10 +9,14 @@ const Landing = () => {
 
                 <img src={bg} alt="background" className="bg" />
                 <h1 className="landingText">
-                    <span className="line">Bonjour !</span> <br />
-                    <span className="line">Je suis Marek-Dimitri,</span> <br />
+                    <span className="line">Bonjour !</span>
+                    <span className="line">Je suis Marek-Dimitri,</span>
                     <span className="line">développeur web fullstack</span>
                 </h1>
+                <div className="socialIcons">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
 
             </div>
 

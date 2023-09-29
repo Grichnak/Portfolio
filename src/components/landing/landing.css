@@ -34,12 +34,12 @@
 }
 
 .landingText .line:nth-child(2) {
-    animation-delay: 2s;
+    animation-delay: 1s;
     /* Chaque ligne apparaît 2 secondes après la précédente */
 }
 
 .landingText .line:nth-child(3) {
-    animation-delay: 0s;
+    animation-delay: 2s;
     /* Chaque ligne apparaît 4 secondes après la précédente */
 }
 
@@ -55,4 +55,24 @@
     100% {
         opacity: 1;
     }
+}
+
+.landingText span {
+    display: block;
+}
+
+.socialIcons {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+
+.fa-brands {
+    width: 5rem;
+    font-size: 3rem;
+    background: white;
+    padding: 17px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    height: 5rem;
 }
