@@ -27,7 +27,7 @@
 
 .portfolio-card:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px rgb(199, 197, 197);
+    box-shadow: 5px 5px rgb(207, 205, 177);
 }
 
 .portfolio-card-img {
