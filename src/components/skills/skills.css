@@ -35,23 +35,32 @@
 .skill-title:after {
     content: '';
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 50%;
     width: 35px;
     height: 4px;
     border-radius: 2px 0 0 2px;
     background-color: rgb(5, 117, 117);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
 }
 
 .skill-title:before {
     content: '';
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 50%;
     width: 35px;
     height: 4px;
     border-radius: 0 2px 2px 0;
     background-color: rgb(5, 117, 117);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.skill-title:hover::after,
+.skill-title:hover::before {
+    transform: scaleX(1);
 }
 
 .skill-title h3 {
@@ -67,7 +76,39 @@
     position: relative;
     border-radius: 45px;
     background-color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
 }
+
+.skill-title:hover .skill-img {
+    animation: swing 0.5s ease-in-out forwards;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-5deg);
+        /* Basculez vers la gauche */
+    }
+
+    50% {
+        transform: rotate(0deg);
+        /* Revenez à la position de base */
+    }
+
+    75% {
+        transform: rotate(5deg);
+        /* Basculez vers la droite */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* Revenez à la position de base */
+    }
+}
+
 
 .skill-icon {
     width: 65px;

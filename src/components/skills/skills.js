@@ -5,6 +5,7 @@ import css from '../../assets/css-icon.png'
 import js from '../../assets/js.png'
 import react from '../../assets/react-icon.png'
 import sass from '../../assets/sass.png'
+import nodejs from '../../assets/nodejs.png'
 
 const Skills = () => {
     return (
@@ -51,7 +52,7 @@ const Skills = () => {
                 <div className="skill-box">
                     <div className="skill-title">
                         <div className="skill-img">
-
+                            <img src={nodejs} alt="nodejs icon" className='skill-icon' />
                         </div>
                         <h3>NodeJS</h3>
                     </div>
