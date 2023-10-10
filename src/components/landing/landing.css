@@ -76,3 +76,33 @@
     margin-right: 2rem;
     height: 5rem;
 }
+
+.landing-content-box {
+    display: flex;
+}
+
+/* Ajoutez une règle de media query pour gérer la mise en page en mode responsive */
+@media (max-width: 768px) {
+    .landingText {
+        top: 50%;
+        /* Ajustez la position du texte en mode responsive */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        /* Ajustez la taille de la police en mode responsive */
+    }
+
+    .socialIcons {
+        top: 70%;
+        /* Ajustez la position des icônes en mode responsive */
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        /* Centrez les icônes horizontalement */
+    }
+
+    .fa-brands {
+        margin: 0 0.5rem;
+        /* Ajustez la marge entre les icônes en mode responsive */
+    }
+}

@@ -10,4 +10,5 @@ body {
     background: rgb(236, 231, 215);
     overflow: hidden;
     overflow-y: scroll;
+    margin: 0;
 }
