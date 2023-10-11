@@ -8,6 +8,7 @@ import "./experience.css"
 const Experience = () => {
     return (
         <section className="experience">
+            <h1 className="experience-title">Mon parcours</h1>
             <VerticalTimeline lineColor="#057575">
                 <VerticalTimelineElement className='vertical-timeline-element--education'
                     date='2022-2023'

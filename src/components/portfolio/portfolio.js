@@ -32,6 +32,13 @@ const Portfolio = () => {
                         <p>Optimisation du site, tant sur les performances que sur le SEO.</p>
                     </div>
                 </div>
+                <div className='portfolio-card'>
+                    <img src={nina} alt='' className='portfolio-card-img' />
+                    <div className='portfolio-card-text'>
+                        <h2>Site de photographe</h2>
+                        <p>Optimisation du site, tant sur les performances que sur le SEO.</p>
+                    </div>
+                </div>
             </div>
         </section>
     );

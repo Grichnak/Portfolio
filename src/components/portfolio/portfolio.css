@@ -16,14 +16,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 20px;
-    height: 450px;
+    gap: 7rem;
+
 }
 
 .portfolio-card {
     position: relative;
-    width: 25rem;
-    height: 25rem;
+    width: 37rem;
+    height: 20rem;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s;
