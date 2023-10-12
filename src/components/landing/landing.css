@@ -17,8 +17,6 @@
     color: beige;
     font-size: 38px;
     font-family: 'Courier New', Courier, monospace;
-    /*white-space: nowrap;
-    /* Empêche le texte de passer à la ligne */
     overflow: hidden;
 }
 
@@ -26,7 +24,7 @@
     opacity: 0;
     animation: typing 2s steps(20) forwards;
     margin-bottom: 10px;
-    /* Espacement entre les lignes */
+
 }
 
 .landingText .line:nth-child(1) {
@@ -61,11 +59,23 @@
     display: block;
 }
 
-.socialIcons {
+.customBtn {
+    background: rgb(5, 117, 117);
+    border: none;
+    margin: 1.5rem;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
     position: absolute;
-    top: 60%;
-    left: 20%;
+    top: 62%;
+    left: 19%;
+    font-weight: 500;
+    font-size: medium;
 }
+
+
 
 .fa-brands {
     width: 5rem;
@@ -81,28 +91,28 @@
     display: flex;
 }
 
-/* Ajoutez une règle de media query pour gérer la mise en page en mode responsive */
+
 @media (max-width: 768px) {
     .landingText {
         top: 50%;
-        /* Ajustez la position du texte en mode responsive */
+
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 28px;
-        /* Ajustez la taille de la police en mode responsive */
+
     }
 
-    .socialIcons {
+    .customBtn {
         top: 70%;
-        /* Ajustez la position des icônes en mode responsive */
+
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
-        /* Centrez les icônes horizontalement */
+
     }
 
     .fa-brands {
         margin: 0 0.5rem;
-        /* Ajustez la marge entre les icônes en mode responsive */
+
     }
 }
