@@ -1,23 +1,12 @@
 import React from 'react';
 import './landing.css';
 import bg from '../../assets/bg-resize.jpg';
+import cv from '../../assets/cv.pdf'
+
 
 const Landing = () => {
 
-    const onButtonClick = () => {
-        // using Java Script method to get PDF file 
-        fetch('/CV-MDAF.pdf').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file 
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values 
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = '/CV-MDAF.pdf';
-                alink.click();
-            })
-        })
-    }
+
 
     return (
         <section id="landing">
@@ -30,11 +19,11 @@ const Landing = () => {
                         <span className="line">Je suis Marek-Dimitri,</span>
                         <span className="line">développeur web front-end</span>
                     </h1>
-
-                    <button className='customBtn' onClick={onButtonClick}>
-                        Télécharger mon CV
-                    </button>
-
+                    <a href={cv} download="CV Marek-Dimitri ABOU FADEL">
+                        <button className='customBtn' >
+                            Télécharger mon CV
+                        </button>
+                    </a>
 
                 </div>
 
