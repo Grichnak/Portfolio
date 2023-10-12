@@ -6,7 +6,7 @@ import nina from '../../assets/portfolio-nina2.png';
 
 const Portfolio = () => {
     return (
-        <section className='portfolio'>
+        <section id='portfolio'>
             <div className='portfolio-intro-text'>
                 <h1>Portfolio</h1>
             </div>
