@@ -17,15 +17,15 @@ const Landing = () => {
                         <span className="line">Je suis Marek-Dimitri,</span>
                         <span className="line">développeur web front-end</span>
                     </h1>
-                    <a href={cv} download="CV Marek-Dimitri ABOU FADEL">
-                        <button className='customBtn' >
-                            Télécharger mon CV
-                        </button>
-
-
-                    </a>
-                    <a href="https://github.com/Grichnak"><i class="fa-brands fa-github" ></i></a>
-                    <a href="https://github.com/Grichnak/Portfolio"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <div className="landing-links">
+                        <a href={cv} download="CV Marek-Dimitri ABOU FADEL">
+                            <button className='customBtn' >
+                                Télécharger mon CV
+                            </button>
+                        </a>
+                        <a href="https://github.com/Grichnak"><i class="fa-brands fa-github" ></i></a>
+                        <a href="https://github.com/Grichnak/Portfolio"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
         </section >
