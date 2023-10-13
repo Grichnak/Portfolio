@@ -6,8 +6,6 @@ import cv from '../../assets/cv.pdf'
 
 const Landing = () => {
 
-
-
     return (
         <section id="landing">
             <div className="landingContent">
@@ -23,13 +21,14 @@ const Landing = () => {
                         <button className='customBtn' >
                             Télécharger mon CV
                         </button>
+
+
                     </a>
-
+                    <a href="https://github.com/Grichnak"><i class="fa-brands fa-github" ></i></a>
+                    <a href="https://github.com/Grichnak/Portfolio"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-
             </div>
-
-        </section>
+        </section >
     )
 }
 

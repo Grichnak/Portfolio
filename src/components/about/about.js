@@ -9,9 +9,9 @@ const About = () => {
             <div className="aboutContainer">
                 <img src={pic} alt="selfie" className="aboutPic" />
                 <div className="aboutTextContainer">
-                    <span className="aboutText">-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae justo eget magna fermentum iaculis eu non diam phasellus.</span><br />
-                    <span className="aboutText">-Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Sagittis orci a scelerisque purus semper eget duis at. Arcu dui vivamus arcu felis bibendum.</span><br />
-                    <span className="aboutText">-Nunc faucibus a pellentesque sit amet porttitor eget dolor. Ultrices eros in cursus turpis. Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. </span>
+                    <span className="aboutText">-Après un parcours dans la fonction publique, j'ai décidé de me reconvertir dans le monde du développement web.  </span><br />
+                    <span className="aboutText">-J'ai toujours été intéressé par le monde de l'informatique et cela s'est transformé en passion lors de ma formation. Je suis naturellement curieux, j'aime comprendre comment les choses fonctionnent.</span><br />
+                    <span className="aboutText">-C'est toujours un plaisir d'apprendre et d'évoluer. Je m'intéresse notamment à three.js et au monde du design web. </span>
                 </div>
             </div>
         </section>

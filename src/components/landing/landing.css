@@ -81,16 +81,30 @@
     transition: slidebg 5s linear infinite;
 }
 
-
-
 .fa-brands {
     width: 5rem;
-    font-size: 5rem;
-    background: white;
-    padding: 17px;
+    font-size: 6rem;
+    background: rgb(5, 117, 117);
+    padding: 4px;
     border-radius: 50%;
     margin-right: 2rem;
     height: 5rem;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-github {
+    position: absolute;
+    top: 62%;
+    left: 38%;
+}
+
+.fa-linkedin-in {
+    position: absolute;
+    top: 62%;
+    left: 47%;
 }
 
 .landing-content-box {
@@ -99,26 +113,34 @@
 
 
 @media (max-width: 768px) {
-    .landingText {
-        top: 50%;
+    .bg {
+        display: none;
+    }
 
+    #landing {
+        height: 50rem;
+        background: rgb(5, 117, 117);
+    }
+
+    .landingText {
+        top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 28px;
-
+        font-size: 35px;
+        text-align: center;
     }
 
     .customBtn {
         top: 70%;
-
-        left: 50%;
+        left: 45%;
         transform: translateX(-50%);
         text-align: center;
-
+        background-color: rgb(236, 231, 215);
+        /* Change the button background color */
+        color: rgb(5, 117, 117);
     }
 
     .fa-brands {
         margin: 0 0.5rem;
-
     }
 }
