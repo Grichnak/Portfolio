@@ -23,8 +23,8 @@ const Landing = () => {
                                 Télécharger mon CV
                             </button>
                         </a>
-                        <a href="https://github.com/Grichnak"><i class="fa-brands fa-github" ></i></a>
-                        <a href="https://github.com/Grichnak/Portfolio"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Grichnak" target="blank"><i class="fa-brands fa-github" ></i></a>
+                        <a href="https://www.linkedin.com/in/marek-dimitri-abou-fadel-14646217b" target="blank"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
