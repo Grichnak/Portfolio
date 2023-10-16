@@ -16,7 +16,8 @@
 }
 
 .about-text {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
+    ;
     font-size: x-large;
     margin: 1rem 0 3rem 0;
 }
@@ -33,5 +34,6 @@
     text-align: center;
     line-height: 1.5;
     font-size: x-large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
+    ;
 }

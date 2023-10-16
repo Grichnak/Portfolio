@@ -15,7 +15,7 @@
     justify-content: center;
     position: absolute;
     top: 60%;
-    left: 20%;
+    left: 18.5%;
 }
 
 
@@ -25,7 +25,7 @@
     left: 20%;
     color: beige;
     font-size: 38px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     overflow: hidden;
 }
 
@@ -77,21 +77,21 @@
     color: white;
     border: none;
     cursor: pointer;
-
     font-weight: 500;
-    font-size: medium;
+    font-size: large;
+    transform: 0.2s;
 }
 
 .customBtn:hover {
     background-color: rgb(236, 231, 215);
     color: black;
-    transition: slidebg 5s linear infinite;
+    transform: scale(1.1);
 }
 
 .fa-brands {
     width: 5rem;
     font-size: 4rem;
-    background: rgb(5, 117, 117);
+    background: #fff;
     padding: 4px;
     border-radius: 50%;
     margin-right: 2rem;
@@ -100,6 +100,12 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    transform: 0.2s;
+}
+
+.fa-brands:hover {
+    background: rgb(5, 117, 117);
+    transform: scale(1.1);
 }
 
 .landing-content-box {

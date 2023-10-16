@@ -12,7 +12,7 @@ const About = () => {
                     <h1>Présentation</h1>
                 </div>
                 <div className="aboutTextContainer">
-                    <span className="aboutText">-Après un parcours dans la fonction publique, j'ai décidé de me reconvertir dans le monde du développement web.  </span><br />
+                    <span className="aboutText">-Après un parcours dans la fonction publique, j'ai décidé de me reconvertir dans le du développement web, notamment le front-end.  </span><br />
                     <span className="aboutText">-J'ai toujours été intéressé par le monde de l'informatique et cela s'est transformé en passion lors de ma formation. Je suis naturellement curieux, j'aime comprendre comment les choses fonctionnent.</span><br />
                     <span className="aboutText">-C'est toujours un plaisir d'apprendre et d'évoluer. Je m'intéresse notamment à three.js et au monde du design web. </span>
                 </div>
