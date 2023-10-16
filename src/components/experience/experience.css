@@ -1,7 +1,10 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .experience-title {
     display: flex;
     justify-content: center;
     margin: 3rem 0 5rem 0;
-    font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
 }

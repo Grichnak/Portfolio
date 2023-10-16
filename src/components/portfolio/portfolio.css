@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     margin: 3rem 0 3rem 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: x-large;
 }
 
@@ -37,8 +37,11 @@
 
 .portfolio-card-img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
+}
+
+.livre {
+    height: 100%;
 }
 
 .portfolio-card-text {
@@ -62,11 +65,11 @@
 .portfolio-card-text h2 {
     margin: 0;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-card-text p {
     margin: 0;
     font-size: 14px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }

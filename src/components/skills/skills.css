@@ -6,7 +6,7 @@
 }
 
 .skill-text {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: x-large;
 }
 
@@ -64,7 +64,8 @@
 }
 
 .skill-title h3 {
-    margin-top: 0.5rem
+    margin-top: 0.5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .skill-img {
