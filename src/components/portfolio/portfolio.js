@@ -3,7 +3,7 @@ import './portfolio.css';
 import booki from '../../assets/portfolio-booki2.png';
 import kasa from '../../assets/portfolio-kasa2.png';
 import nina from '../../assets/portfolio-nina2.png';
-import livre from '../../assets/portfolio-grimoire2.png'
+import livre from '../../assets/portfolio-grimoire3.png'
 
 const Portfolio = () => {
     return (
@@ -46,8 +46,8 @@ const Portfolio = () => {
                     <div className='portfolio-card'>
                         <img src={livre} alt='' className='portfolio-card-img livre' />
                         <div className='portfolio-card-text'>
-                            <h2>Site de photographe</h2>
-                            <p>Optimisation du site, tant sur les performances que sur le SEO.</p>
+                            <h2>Mon vieux grimmoire</h2>
+                            <p>Création du back-end d'un site de notation de livres.</p>
                         </div>
                     </div>
                 </a>

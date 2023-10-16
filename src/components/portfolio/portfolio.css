@@ -73,3 +73,9 @@
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width:768px) {
+    .portfolio-card {
+        width: auto;
+    }
+}
