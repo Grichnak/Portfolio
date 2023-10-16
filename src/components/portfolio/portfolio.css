@@ -1,0 +1,75 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-intro-text {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 3rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5rem;
+
+}
+
+.portfolio-card {
+    position: relative;
+    width: 37rem;
+    height: 20rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px rgb(207, 205, 177);
+}
+
+.portfolio-card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.livre {
+    height: 100%;
+}
+
+.portfolio-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(5, 117, 117);
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.portfolio-card:hover .portfolio-card-text {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.portfolio-card-text h2 {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio-card-text p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}

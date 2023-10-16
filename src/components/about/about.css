@@ -1,0 +1,39 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.aboutPic {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-size: x-large;
+    margin: 1rem 0 3rem 0;
+}
+
+
+.aboutTextContainer {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutText {
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    ;
+}

@@ -1,0 +1,147 @@
+.bg {
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    max-height: 1100px;
+}
+
+.landingContent {
+    display: inline-block;
+}
+
+.landing-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 18.5%;
+}
+
+
+.landingText {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: beige;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.landingText .line {
+    opacity: 0;
+    animation: typing 2s steps(20) forwards;
+    margin-bottom: 10px;
+
+}
+
+.landingText .line:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.landingText .line:nth-child(2) {
+    animation-delay: 1s;
+    /* Chaque ligne apparaît 2 secondes après la précédente */
+}
+
+.landingText .line:nth-child(3) {
+    animation-delay: 2s;
+    /* Chaque ligne apparaît 4 secondes après la précédente */
+}
+
+@keyframes typing {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.landingText span {
+    display: block;
+}
+
+.customBtn {
+    background: rgb(5, 117, 117);
+    border: none;
+    margin: 1.5rem;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: large;
+    transform: 0.2s;
+}
+
+.customBtn:hover {
+    background-color: rgb(236, 231, 215);
+    color: black;
+    transform: scale(1.1);
+}
+
+.fa-brands {
+    width: 5rem;
+    font-size: 4rem;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    height: 5rem;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: 0.2s;
+}
+
+.fa-brands:hover {
+    background: rgb(5, 117, 117);
+    transform: scale(1.1);
+}
+
+.landing-content-box {
+    display: flex;
+}
+
+
+@media (max-width: 768px) {
+    .bg {
+        display: none;
+    }
+
+    #landing {
+        height: 50rem;
+        background: rgb(5, 117, 117);
+    }
+
+    .landingText {
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .customBtn {
+        top: 70%;
+        left: 45%;
+        transform: translateX(-50%);
+        text-align: center;
+        background-color: rgb(236, 231, 215);
+        /* Change the button background color */
+        color: rgb(5, 117, 117);
+    }
+
+    .fa-brands {
+        margin: 0 0.5rem;
+    }
+}
