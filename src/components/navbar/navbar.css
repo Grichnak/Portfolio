@@ -15,7 +15,7 @@
 
 .logo {
     object-fit: cover;
-    height: 3rem;
+    height: 4rem;
     width: 4rem;
 }
 
@@ -23,40 +23,67 @@
     margin: 1rem;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
-    ;
     font-size: large;
 }
 
 .desktopMenuListItem:hover {
-    color: rgb(5, 117, 117);
+    color: rgb(33, 39, 130);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid rgb(5, 117, 117);
+    border-bottom: 3px solid rgb(33, 39, 130);
 }
 
-.desktopMenuBtn {
-    background: white;
-    color: black;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1rem;
-    border-radius: 2rem;
-    font-family: 'Roboto', sans-serif;
-    ;
-    font-size: large;
-    cursor: pointer;
+.menuTrigger {
+    display: none;
 }
 
-.desktopMenuImg {
-    object-fit: cover;
-    height: 2rem;
-    width: 2rem;
-    margin: 0.5rem 1rem 0.5rem 0.5rem;
+@media (max-width: 768px) {
 
-}
+    .navbar {
+        height: auto;
+    }
 
-.desktopMenuBtn:hover {
-    background: rgb(5, 117, 117);
-    color: white;
+    .desktopMenu {
+        display: none;
+        transform: translateX(100%);
+        transition: transform 0s ease-in-out;
+        animation: slideIn 0.5s forwards;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .desktopMenu.is-open {
+        display: flex;
+        flex-direction: column;
+        background: rgb(236, 231, 215);
+        top: 100%;
+        position: absolute;
+        right: 0%;
+        border: black;
+        animation: slideOut 0.5s reverse forwards;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+
+    }
+
+    @keyframes slideOut {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(100%);
+        }
+    }
+
+    .menuTrigger {
+        display: block;
+    }
 }

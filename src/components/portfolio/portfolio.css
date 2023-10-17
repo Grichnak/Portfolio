@@ -25,7 +25,7 @@
     width: 37rem;
     height: 20rem;
     overflow: hidden;
-    cursor: pointer;
+    /* cursor: pointer;*/
     transition: transform 0.3s;
     border-radius: 20px;
 }
@@ -44,12 +44,14 @@
     height: 100%;
 }
 
+
 .portfolio-card-text {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(5, 117, 117);
+    height: 100%;
+    background-color: rgb(33, 39, 130);
     padding: 10px;
     color: white;
     opacity: 0;
@@ -64,12 +66,53 @@
 
 .portfolio-card-text h2 {
     margin: 0;
-    font-size: 18px;
+    font-size: larger;
     font-family: 'Roboto', sans-serif;
+    padding: 1rem 1rem 0.5rem 1rem;
+    text-decoration: underline 2px;
 }
 
 .portfolio-card-text p {
     margin: 0;
-    font-size: 14px;
+    font-size: large;
     font-family: 'Roboto', sans-serif;
+    padding: 0.5rem 1rem;
+    line-height: 2;
+}
+
+.logo-portfolio {
+    height: 5rem;
+    border-radius: 25%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.logo-portfolio-mobile {
+    display: nne;
+}
+
+@media (max-width:768px) {
+    .portfolio-card {
+        width: auto;
+    }
+
+    .kasa {
+        height: 100%;
+        object-fit: inherit;
+    }
+
+    .livre {
+        object-fit: fill;
+    }
+
+    .logo-portfolio-mobile {
+        display: block;
+        width: 26%;
+        position: absolute;
+        top: 0%;
+        right: 0;
+        border-radius: 18%;
+        border: 2px solid cornsilk;
+    }
 }
