@@ -27,9 +27,9 @@
 }
 
 .desktopMenuListItem:hover {
-    color: rgb(5, 117, 117);
+    color: rgb(33, 39, 130);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid rgb(5, 117, 117);
+    border-bottom: 3px solid rgb(33, 39, 130);
 }
 
 .menuTrigger {
@@ -68,6 +68,9 @@
         right: 0%;
         border: black;
         animation: slideOut 0.5s reverse forwards;
+        border-left: 1px solid;
+        border-bottom: 1px solid;
+
     }
 
     @keyframes slideOut {
