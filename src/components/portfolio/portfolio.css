@@ -115,4 +115,13 @@
         border-radius: 18%;
         border: 2px solid black;
     }
+
+    .portfolio-card-text {
+        display: none;
+    }
+
+    .portfolio-card:hover {
+        transform: none;
+        box-shadow: none;
+    }
 }

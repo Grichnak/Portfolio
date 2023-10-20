@@ -113,6 +113,26 @@
 }
 
 
+@media (min-width:769px) and (max-width: 1062px) {
+
+    .bg {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .landingText {
+        left: 8%;
+        top: 15%;
+    }
+
+    .landing-links {
+        left: 4.5%;
+        top: 33%;
+
+    }
+}
+
+
 @media (max-width: 768px) {
     .bg {
         display: none;
