@@ -147,13 +147,14 @@
         top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
     }
 
     .landing-links {
         flex-direction: column;
         top: 55%;
+        left: 15%;
     }
 
     .customBtn {

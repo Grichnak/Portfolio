@@ -19,7 +19,7 @@ const Navbar = () => {
             <li className="menuTrigger" onClick={toggleMenu}>Menu</li>
 
             <div className={`desktopMenu ${isOpen ? "is-open" : ""}`}>
-                <Link activeClass='active' to='landing' spy={true} smooth={true} offset={-90} duration={500} className="desktopMenuListItem">Acceuil</Link>
+                <Link activeClass='active' to='landing' spy={true} smooth={true} offset={-90} duration={500} className="desktopMenuListItem">Accueil</Link>
                 <Link activeClass='active' to='about' spy={true} smooth={true} offset={-85} duration={500} className="desktopMenuListItem">A propos</Link>
                 <Link activeClass='active' to='portfolio' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Portfolio</Link>
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-120} duration={500} className="desktopMenuListItem">Mon parcours</Link>
