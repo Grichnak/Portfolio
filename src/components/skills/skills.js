@@ -6,6 +6,7 @@ import js from '../../assets/js.png'
 import react from '../../assets/react-icon.png'
 import sass from '../../assets/sass.png'
 import nodejs from '../../assets/nodejs.png'
+import ts from '../../assets/typescript.png'
 
 const Skills = () => {
     return (
@@ -52,20 +53,22 @@ const Skills = () => {
                 <div className="skill-box">
                     <div className="skill-title">
                         <div className="skill-img">
-                            <img src={nodejs} alt="nodejs icon" className='skill-icon' />
+                            <img src={ts} alt="ts icon" className='skill-icon' />
                         </div>
-                        <h3>NodeJS</h3>
+                        <h3>Typescript</h3>
                     </div>
                 </div>
 
                 <div className="skill-box">
                     <div className="skill-title">
                         <div className="skill-img">
-                            <img src={sass} alt="sass icon" className='skill-icon' />
+                            <img src={nodejs} alt="nodejs icon" className='skill-icon' />
                         </div>
-                        <h3>Sass</h3>
+                        <h3>NodeJS</h3>
                     </div>
                 </div>
+
+
 
             </div>
         </section>
